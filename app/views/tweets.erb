@@ -1,0 +1,5 @@
+<% @tweets.each do |tweet| %>
+
+<p> <%= tweet.content %> </p>
+<% end %>
+<% if @cached %> CACHED <% else %> NT cACHED <% end %>
